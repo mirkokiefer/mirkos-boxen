@@ -58,10 +58,14 @@ node default {
   include hub
   include nginx
 
-  # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+  include chrome
+  include chrome::canary
+
+  include sublime_text_2 
+
+  include dropbox
+
+  include skype
 
   # node versions
   include nodejs::v0_4
