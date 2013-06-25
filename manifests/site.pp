@@ -66,6 +66,8 @@ node default {
   include dropbox
 
   include skype
+  
+  include vlc
 
   # node versions
   include nodejs::v0_4
