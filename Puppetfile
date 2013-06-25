@@ -34,6 +34,7 @@ github "sublime_text_2", "1.1.1"
 github "chrome", "1.1.0"
 github "dropbox", "1.1.0"
 github "skype", "1.0.3"
+github "vlc", "1.0.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
