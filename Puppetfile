@@ -35,6 +35,7 @@ github "chrome", "1.1.0"
 github "dropbox", "1.1.0"
 github "skype", "1.0.3"
 github "vlc", "1.0.1"
+github "mysql", "1.1.3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
