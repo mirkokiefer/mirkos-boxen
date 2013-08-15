@@ -68,6 +68,8 @@ node default {
   include skype
   
   include vlc
+  
+  include mysql
 
   # node versions
   include nodejs::v0_4
